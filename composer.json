@@ -1,0 +1,13 @@
+{
+    "name": "vendor/vendor",
+    "description": "package manager",
+    "type": "library",
+    "require": {
+        "dompdf/dompdf": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Vendor\\": "src/"
+        }
+    }
+}

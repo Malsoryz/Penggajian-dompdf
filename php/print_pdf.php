@@ -1,6 +1,8 @@
 <?php
     include "koneksi.php";
-    require "dompdf/autoload.inc.php";
+    
+    require "../vendor/autoload.php";
+
     use Dompdf\Dompdf;
 
     $nip = $_POST['karyawan_id'];
